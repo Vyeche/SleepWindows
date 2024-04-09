@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "WindowsSleep": {
+    "SleepWindows": {
       "commandName": "Project",
       "commandLineArgs": "10000"
     }
