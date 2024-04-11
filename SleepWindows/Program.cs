@@ -121,7 +121,7 @@ internal class Program
                 Console.BackgroundColor = ConsoleColor.Red;
                 Console.WriteLine("All X & Y positions are same.");
                 Console.WriteLine("Going to sleep!\n");
-                //SetSuspendState(false, true, true);
+                SetSuspendState(false, true, true);
             }
             else
             {
