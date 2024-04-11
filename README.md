@@ -1,4 +1,4 @@
-# Windows Sleep
+# Sleep Windows
 - A console app that lets the computer track mouse movements and sleeps the PC when no activity is present.
 
 ## Goal
