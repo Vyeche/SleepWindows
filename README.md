@@ -11,3 +11,5 @@
 - You can pass a parameter to specify the time before sleep is triggered in milliseconds
   - `WindowsSleep 10000`
   - Trigger sleep check every 10 seconds
+
+![image](https://github.com/Vyeche/SleepWindows/assets/972377/3a833b0e-122a-40ec-91f7-a656e78f91f6)
