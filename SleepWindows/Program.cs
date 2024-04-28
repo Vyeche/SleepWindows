@@ -84,6 +84,13 @@ internal class Program
                 // If I want a prompt warning me.
 
                 var totalSeconds = (m_dueTime - DateTime.Now).TotalSeconds;
+
+                // If we go into the negative lets reset the default. 
+                if(totalSeconds < 0)
+                {
+                    m_dueTime = DateTime.Now.AddMilliseconds(argumentInterval);
+                }
+
                 double x = Math.Truncate(totalSeconds * 100) / 100;
                 string formattedString = string.Format("{0:N2}%", x);
                 Console.ResetColor();
