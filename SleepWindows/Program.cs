@@ -86,7 +86,8 @@ internal class Program
                 var totalSeconds = (m_dueTime - DateTime.Now).TotalSeconds;
 
                 // If we go into the negative lets reset the default. 
-                if(totalSeconds < 0)
+                // -3 for fun :) 
+                if(totalSeconds < -3)
                 {
                     m_dueTime = DateTime.Now.AddMilliseconds(argumentInterval);
                 }
